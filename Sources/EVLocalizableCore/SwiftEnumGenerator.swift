@@ -18,11 +18,11 @@ public struct SwiftEnumGenerator {
         let members = makeMembers(from: catalog.entries)
         let memberLines = members.map(\.rendered).joined(separator: "\n\n")
         let tr = """
-        \(accessLevel)static func tr(_ key: String) -> String {
+            \(accessLevel)static func tr(_ key: String) -> String {
                 NSLocalizedString(key, comment: "")
             }
 
-        \(accessLevel)static func tr(_ key: String, _ args: CVarArg...) -> String {
+            \(accessLevel)static func tr(_ key: String, _ args: CVarArg...) -> String {
                 let format = tr(key)
                 return String(format: format, locale: Locale.current, arguments: args)
             }
