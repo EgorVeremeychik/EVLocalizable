@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/master.swiftdeps"
+  },
+  "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift": {
+    "dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.d",
+    "object": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.swift.o",
+    "swiftmodule": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery~partial.swiftmodule",
+    "swift-dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.swiftdeps",
+    "diagnostics": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.dia"
+  },
+  "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift": {
+    "dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.d",
+    "object": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.swift.o",
+    "swiftmodule": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.swiftdeps",
+    "diagnostics": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.dia"
+  },
+  "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift": {
+    "dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.d",
+    "object": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.swift.o",
+    "swiftmodule": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.swiftdeps",
+    "diagnostics": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.dia"
+  }
+}

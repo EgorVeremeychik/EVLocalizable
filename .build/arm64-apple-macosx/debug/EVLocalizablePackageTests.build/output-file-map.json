@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/master.swiftdeps"
+  },
+  "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.derived/runner.swift": {
+    "dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner.d",
+    "object": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner.dia"
+  }
+}

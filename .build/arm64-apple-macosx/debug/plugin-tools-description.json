@@ -1,0 +1,1213 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.xctest/Contents/MacOS/EVLocalizablePackageTests",
+      "packagePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable",
+      "productName" : "EVLocalizablePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "EVLocalizablePlugin"
+  ],
+  "pluginDescriptions" : [
+    {
+      "moduleC99Name" : "EVLocalizablePlugin",
+      "moduleName" : "EVLocalizablePlugin",
+      "package" : "evlocalizable",
+      "productNames" : [
+        "EVLocalizablePlugin"
+      ],
+      "sources" : {
+        "relativePaths" : [
+          "Plugin.swift"
+        ],
+        "root" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Plugins/EVLocalizablePlugin"
+      },
+      "toolsVersion" : {
+        "_version" : "5.9.0"
+      }
+    }
+  ],
+  "swiftCommands" : {
+    "C.EVLocalizableCore-arm64-apple-macosx26.0-debug-tool.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/sources",
+      "importPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EVLocalizableCore",
+      "moduleOutputPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool/EVLocalizableCore.swiftmodule",
+      "objects" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/StringCatalogDiscovery.swift.o",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/StringCatalogParser.swift.o",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/SwiftEnumGenerator.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/include/EVLocalizableCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "evlocalizable"
+      ],
+      "outputFileMapPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/StringCatalogDiscovery.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/StringCatalogParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/SwiftEnumGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool/EVLocalizableCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift"
+      ],
+      "tempsPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EVLocalizableCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/sources",
+      "importPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EVLocalizableCore",
+      "moduleOutputPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableCore.swiftmodule",
+      "objects" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.swift.o",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.swift.o",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/include/EVLocalizableCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "evlocalizable"
+      ],
+      "outputFileMapPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift"
+      ],
+      "tempsPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EVLocalizableCoreTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/sources",
+      "importPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Tests/EVLocalizableCoreTests/SwiftEnumGeneratorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EVLocalizableCoreTests",
+      "moduleOutputPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/SwiftEnumGeneratorTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "evlocalizable"
+      ],
+      "outputFileMapPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/SwiftEnumGeneratorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Tests/EVLocalizableCoreTests/SwiftEnumGeneratorTests.swift"
+      ],
+      "tempsPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EVLocalizableGenerator-arm64-apple-macosx26.0-debug-tool.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/sources",
+      "importPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableGenerator/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool/EVLocalizableCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "EVLocalizableGenerator",
+      "moduleOutputPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool/EVLocalizableGenerator.swiftmodule",
+      "objects" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "EVLocalizableGenerator_main",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "evlocalizable"
+      ],
+      "outputFileMapPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool/EVLocalizableGenerator.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableGenerator/main.swift"
+      ],
+      "tempsPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EVLocalizableGenerator-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/sources",
+      "importPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableGenerator/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "EVLocalizableGenerator",
+      "moduleOutputPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableGenerator.swiftmodule",
+      "objects" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "EVLocalizableGenerator_main",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "evlocalizable"
+      ],
+      "outputFileMapPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableGenerator.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableGenerator/main.swift"
+      ],
+      "tempsPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EVLocalizablePackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/sources",
+      "importPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizableCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EVLocalizablePackageTests",
+      "moduleOutputPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizablePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/include/EVLocalizablePackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "evlocalizable"
+      ],
+      "outputFileMapPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules/EVLocalizablePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "EVLocalizableCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EVLocalizableCore",
+      "-package-name",
+      "evlocalizable",
+      "-c",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift",
+      "-I",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/include/EVLocalizableCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "evlocalizable",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "EVLocalizableCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EVLocalizableCoreTests",
+      "-package-name",
+      "evlocalizable",
+      "-c",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Tests/EVLocalizableCoreTests/SwiftEnumGeneratorTests.swift",
+      "-I",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "evlocalizable",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "EVLocalizableGenerator" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EVLocalizableGenerator",
+      "-package-name",
+      "evlocalizable",
+      "-c",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableGenerator/main.swift",
+      "-I",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules-tool",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "EVLocalizableGenerator_main",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "evlocalizable",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "EVLocalizablePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EVLocalizablePackageTests",
+      "-package-name",
+      "evlocalizable",
+      "-c",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/include/EVLocalizablePackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "evlocalizable",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "EVLocalizableCore" : [
+
+    ],
+    "EVLocalizableCoreTests" : [
+      "EVLocalizableCore"
+    ],
+    "EVLocalizableGenerator" : [
+      "EVLocalizableCore"
+    ],
+    "EVLocalizablePackageTests" : [
+      "EVLocalizableCoreTests",
+      "EVLocalizableCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/sources"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogDiscovery.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/StringCatalogParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableCore/SwiftEnumGenerator.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/sources"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Tests/EVLocalizableCoreTests/SwiftEnumGeneratorTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/sources"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-entitlement.plist"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool-entitlement.plist"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableGenerator/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/sources"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/StringCatalogDiscovery.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/StringCatalogParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore-tool.build/SwiftEnumGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator-tool.product/Objects.LinkFileList"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/Sources/EVLocalizableGenerator/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/sources"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableGenerator.product/Objects.LinkFileList"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/sources"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogDiscovery.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/StringCatalogParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCore.build/SwiftEnumGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizableCoreTests.build/SwiftEnumGeneratorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.build/runner.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/EVLocalizablePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/Egor.Veremeychik/Documents/Programming/Projects/ios/My/EVLocalizable/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
