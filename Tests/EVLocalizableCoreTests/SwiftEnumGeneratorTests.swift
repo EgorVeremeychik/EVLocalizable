@@ -36,28 +36,38 @@ final class SwiftEnumGeneratorTests: XCTestCase {
         let catalog = try StringCatalogParser.parse(contentsOf: url)
 
         XCTAssertEqual(catalog.keys, ["auth.login.title", "common.ok"])
+        XCTAssertEqual(catalog.entries.first?.developmentValue, "Login")
     }
 
     func testGeneratesSwiftEnumFromKeys() {
         let source = SwiftEnumGenerator().generate(
-            catalog: .init(keys: ["auth.login.title", "class", "9.patch"]),
+            catalog: .init(entries: [
+                .init(key: "auth.login.title", developmentValue: "Login"),
+                .init(key: "class", developmentValue: "Class"),
+                .init(key: "9.patch", developmentValue: "Patch")
+            ]),
             configuration: .init(enumName: "AppStrings", accessLevel: "public")
         )
 
         XCTAssertTrue(source.contains("public enum AppStrings"))
-        XCTAssertTrue(source.contains("case authLoginTitle = \"auth.login.title\""))
-        XCTAssertTrue(source.contains("case `class` = \"class\""))
-        XCTAssertTrue(source.contains("case _9Patch = \"9.patch\""))
-        XCTAssertTrue(source.contains("public var localized: String"))
+        XCTAssertTrue(source.contains("static let authLoginTitleKey = \"auth.login.title\""))
+        XCTAssertTrue(source.contains("static var authLoginTitle: String { tr(authLoginTitleKey) }"))
+        XCTAssertTrue(source.contains("static let `class`Key = \"class\""))
+        XCTAssertTrue(source.contains("static var _9Patch: String { tr(_9PatchKey) }"))
+        XCTAssertTrue(source.contains("public static func tr(_ key: String) -> String"))
+        XCTAssertTrue(source.contains("public static func tr(_ key: String, _ args: CVarArg...) -> String"))
     }
 
     func testDisambiguatesCollidingCaseNames() {
         let source = SwiftEnumGenerator().generate(
-            catalog: .init(keys: ["user-id", "user_id"])
+            catalog: .init(entries: [
+                .init(key: "user-id", developmentValue: "User"),
+                .init(key: "user_id", developmentValue: "User")
+            ])
         )
 
-        XCTAssertTrue(source.contains("case userId = \"user-id\""))
-        XCTAssertTrue(source.contains("case userId2 = \"user_id\""))
+        XCTAssertTrue(source.contains("static var userId: String { tr(userIdKey) }"))
+        XCTAssertTrue(source.contains("static var userId2: String { tr(userId2Key) }"))
     }
 
     func testDiscoversXCStringsRecursively() throws {
@@ -85,5 +95,17 @@ final class SwiftEnumGeneratorTests: XCTestCase {
 
         XCTAssertEqual(descriptors.first?.enumName, "LocalizableSecond")
         XCTAssertEqual(descriptors.first?.outputFileName, "LocalizableSecond+EVLocalizable.swift")
+    }
+
+    func testGeneratesTypedFunctionForFormattedString() {
+        let source = SwiftEnumGenerator().generate(
+            catalog: .init(entries: [
+                .init(key: "welcome.message", developmentValue: "Hello, %@. You have %d messages.")
+            ]),
+            configuration: .init(enumName: "L10n", accessLevel: "public")
+        )
+
+        XCTAssertTrue(source.contains("static func welcomeMessage(value1: String, value2: Int) -> String"))
+        XCTAssertTrue(source.contains("tr(welcomeMessageKey, value1, value2)"))
     }
 }
