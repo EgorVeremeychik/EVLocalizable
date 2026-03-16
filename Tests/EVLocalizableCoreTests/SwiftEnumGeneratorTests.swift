@@ -105,7 +105,7 @@ final class SwiftEnumGeneratorTests: XCTestCase {
             configuration: .init(enumName: "L10n", accessLevel: "public")
         )
 
-        XCTAssertTrue(source.contains("static func welcomeMessage(value1: String, value2: Int) -> String"))
-        XCTAssertTrue(source.contains("tr(welcomeMessageKey, value1, value2)"))
+        XCTAssertTrue(source.contains("static func welcomeMessage(_ arg1: String, _ arg2: Int) -> String"))
+        XCTAssertTrue(source.contains("tr(welcomeMessageKey, arg1, arg2)"))
     }
 }

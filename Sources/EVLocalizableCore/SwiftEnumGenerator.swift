@@ -63,13 +63,11 @@ public struct SwiftEnumGenerator {
             """
         }
 
-        let parameters = arguments.enumerated().map { index, argument in
-            "\(argument.name ?? "value\(index + 1)"): \(argument.swiftType)"
+        let parameters = arguments.map { argument in
+            "_ \(argument.name): \(argument.swiftType)"
         }.joined(separator: ", ")
 
-        let passedArguments = arguments.enumerated().map { index, argument in
-            argument.name ?? "value\(index + 1)"
-        }.joined(separator: ", ")
+        let passedArguments = arguments.map(\.name).joined(separator: ", ")
 
         return """
             static let \(keyConstant) = \(quoted(key))
@@ -125,7 +123,7 @@ public struct SwiftEnumGenerator {
 }
 
 private struct FormatArgument {
-    let name: String?
+    let name: String
     let swiftType: String
 }
 
@@ -150,7 +148,7 @@ private enum FormatSpecifierParser {
             let specifier = token.last ?? "@"
             let swiftType = swiftType(for: specifier)
             defer { index += 1 }
-            return FormatArgument(name: "value\(index)", swiftType: swiftType)
+            return FormatArgument(name: "arg\(index)", swiftType: swiftType)
         }
     }
 
