@@ -55,6 +55,9 @@ final class SwiftEnumGeneratorTests: XCTestCase {
         XCTAssertTrue(source.contains("static let `class`Key = \"class\""))
         XCTAssertTrue(source.contains("static var _9Patch: String { tr(_9PatchKey) }"))
         XCTAssertTrue(source.contains("public static func tr(_ key: String) -> String"))
+        XCTAssertTrue(source.contains("String(localized: String.LocalizationValue(key), bundle: bundle)"))
+        XCTAssertTrue(source.contains("Bundle.module"))
+        XCTAssertTrue(source.contains("Bundle(for: BundleToken.self)"))
         XCTAssertTrue(source.contains("public static func tr(_ key: String, _ args: CVarArg...) -> String"))
     }
 

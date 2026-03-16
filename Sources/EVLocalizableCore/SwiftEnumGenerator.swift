@@ -19,7 +19,7 @@ public struct SwiftEnumGenerator {
         let memberLines = members.map(\.rendered).joined(separator: "\n\n")
         let tr = """
             \(accessLevel)static func tr(_ key: String) -> String {
-                NSLocalizedString(key, comment: "")
+                String(localized: String.LocalizationValue(key), bundle: bundle)
             }
 
             \(accessLevel)static func tr(_ key: String, _ args: CVarArg...) -> String {
@@ -36,6 +36,16 @@ public struct SwiftEnumGenerator {
         \(memberLines)
 
         \(tr)
+
+            private static let bundle: Bundle = {
+                #if SWIFT_PACKAGE
+                Bundle.module
+                #else
+                Bundle(for: BundleToken.self)
+                #endif
+            }()
+
+            private final class BundleToken {}
         }
         """
     }
