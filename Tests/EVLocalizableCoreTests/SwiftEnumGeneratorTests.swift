@@ -74,4 +74,16 @@ final class SwiftEnumGeneratorTests: XCTestCase {
         XCTAssertEqual(descriptors.first?.enumName, "FeatureFlags")
         XCTAssertEqual(descriptors.first?.outputFileName, "FeatureFlags+EVLocalizable.swift")
     }
+
+    func testPreservesCamelCaseInCatalogName() throws {
+        let root = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString, isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+        let xcstringsURL = root.appendingPathComponent("LocalizableSecond.xcstrings")
+        try "{}".write(to: xcstringsURL, atomically: true, encoding: .utf8)
+
+        let descriptors = try StringCatalogDiscovery.discover(in: root)
+
+        XCTAssertEqual(descriptors.first?.enumName, "LocalizableSecond")
+        XCTAssertEqual(descriptors.first?.outputFileName, "LocalizableSecond+EVLocalizable.swift")
+    }
 }

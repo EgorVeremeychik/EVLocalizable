@@ -58,7 +58,7 @@ enum SwiftName {
             .filter { !$0.isEmpty }
 
         let candidate = parts.map {
-            $0.prefix(1).uppercased() + $0.dropFirst().lowercased()
+            $0.prefix(1).uppercased() + $0.dropFirst()
         }.joined()
 
         let normalized = candidate.isEmpty ? "Localizable" : candidate
