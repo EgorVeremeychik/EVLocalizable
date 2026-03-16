@@ -1,4 +1,5 @@
 #if canImport(XcodeProjectPlugin)
+import Foundation
 import XcodeProjectPlugin
 import PackagePlugin
 
