@@ -55,4 +55,5 @@ Thumbs.db
 *.perspectivev3
 *.xcuserstate
 xcuserdata/
+.build/
 
